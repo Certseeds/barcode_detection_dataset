@@ -4,7 +4,7 @@
  * @Author: nanoseeds
  * @Date: 2021-03-13 21:09:27
  * @LastEditors: nanoseeds
- * @LastEditTime: 2021-03-13 21:50:06
+ * @LastEditTime: 2021-03-13 22:36:39
  * @License: CC-BY-NC-SA_V4_0 or any later version 
  -->
 
@@ -27,4 +27,4 @@ it's struct is
     │  ..........
 ```
 
-What will be put to `./resized_25%/images/JPEGImages` is zip files `./resized_25%/JPEGImages` folder.
+What will be put to `./images/JPEGImages` is zip files `./resized_25%/JPEGImages` folder.
