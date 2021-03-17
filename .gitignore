@@ -4,7 +4,9 @@
 ## @Author: nanoseeds
 ## @Date: 2021-03-13 20:42:10
 ## @LastEditors: nanoseeds
-## @LastEditTime: 2021-03-13 20:58:09
+## @LastEditTime: 2021-03-17 22:43:44
 ### 
 
 *.zip
+*.[Pp][Nn][Gg]
+*.[Jj][Pp][Gg]
