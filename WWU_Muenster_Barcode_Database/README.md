@@ -63,3 +63,6 @@ The Muenster BarcodeDB consists of over 1.000 1-D barcode images taken by camera
     publication on this database, please contact the author.
 </ul>
 
+PS: ALL OF THE FILES IN `images\nokia-N95-Imgs` is `2592 * 1944`, do not need to delete exif info
+
+PS2: some pictures with no labels seems broken down
