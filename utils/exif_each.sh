@@ -6,10 +6,8 @@ set -eoux pipefail
  # @Author: nanoseeds
  # @Date: 2021-03-17 22:27:04
  # @LastEditors: nanoseeds
- # @LastEditTime: 2021-03-17 22:43:21
-### 
-#!/bin/bash
-set -eoux pipefail
+ # @LastEditTime: 2021-05-02 17:04:09
+###
 pre_path="../barcode_detection_dataset/"
 clear_path(){
     origin_path=$(pwd)
@@ -19,10 +17,10 @@ clear_path(){
         for file in ./* ;do
             if [[ -f ${file}  ]] ; then
                 echo "${file} 是文件"
-                exiftool -all= ${file}
+                exiftool -all= "${file}"
             fi
         done
-        cd ${origin_path}
+        cd "${origin_path}"
     done
 }
 main(){
@@ -32,10 +30,11 @@ main(){
     path_array[3]="1d_barcode_extended/images/JPEGImages"
     path_array[4]="pictures/images/20210316_2"
     path_array[5]="pictures/images/20210317_2"
-    for i in ${path_array[@]}; do
+    path_array[6]="extends/imagenet_2012_n07248320"
+    for i in "${path_array[@]}"; do
         echo ${pre_path}${i}
     done
     clear_path ${path_array}
 }
-main $@
+main "$@"
 # clear_path
