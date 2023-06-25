@@ -1,10 +1,6 @@
-### 
+###
 ## @Github: https://github.com/Certseeds/barcode_detection_dataset
-## @Organization: SUSTech
-## @Author: nanoseeds
-## @Date: 2021-04-23 11:41:56
 ## @LastEditors: nanoseeds
-## @LastEditTime: 2021-04-23 11:42:17
-### 
+###
 #This file actually use as `.gitkeep`
 *.jpg

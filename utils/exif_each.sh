@@ -1,12 +1,8 @@
 #!/bin/bash
 set -eoux pipefail
 ###
- # @Github: https://github.com/Certseeds/barcode_detection_dataset
- # @Organization: SUSTech
- # @Author: nanoseeds
- # @Date: 2021-03-17 22:27:04
- # @LastEditors: nanoseeds
- # @LastEditTime: 2021-05-02 17:04:09
+## @Github: https://github.com/Certseeds/barcode_detection_dataset
+## @LastEditors: nanoseeds
 ###
 pre_path="../barcode_detection_dataset/"
 clear_path(){

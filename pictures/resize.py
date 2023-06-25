@@ -1,12 +1,12 @@
+#!/usr/bin/env python3
+# coding=utf-8
 import cv2
-from typing import List
 import os
 import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-    path: List = os
-    path = "C:\\Users\\nanos\\repo\\barcode_detection_dataset\\pictures\\images\\20210316_2\\"
-    resize_dir = path + "resize\\"
+    path: str = "./images/20210316_2"
+    resize_dir: str = path + "/resize"
     os.mkdir(resize_dir)
     for i in os.listdir(path):
         print(i)

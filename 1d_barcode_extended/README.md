@@ -1,13 +1,3 @@
-<!--
- * @Github: https://github.com/Certseeds/barcode_detection_dataset
- * @Organization: SUSTech
- * @Author: nanoseeds
- * @Date: 2021-03-13 21:09:27
- * @LastEditors: nanoseeds
- * @LastEditTime: 2021-03-13 22:36:39
- * @License: CC-BY-NC-SA_V4_0 or any later version 
- -->
-
 # 1d_barcode_extended
 
 This Dataset's images come from

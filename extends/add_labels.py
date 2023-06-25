@@ -2,11 +2,7 @@
 # coding=utf-8
 '''
 Github: https://github.com/Certseeds/barcode_detection_dataset
-Organization: SUSTech
 Author: nanoseeds
-Date: 2021-05-04 21:13:46
-LastEditors: nanoseeds
-LastEditTime: 2021-05-04 21:27:36
 '''
 import math
 import pathlib
