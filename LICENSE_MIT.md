@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright © 2021 Certseeds
+Copyright © 2021-2024 Certseeds
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation

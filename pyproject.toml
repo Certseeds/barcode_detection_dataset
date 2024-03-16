@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "barcode-detection-dataset"
+version = "0.1.0"
+description = ""
+authors = ["Certseeds <51754303+Certseeds@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
