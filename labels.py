@@ -11,8 +11,8 @@ LABELS_FILE_NAME: str = "labels.txt"
 
 def filter_unexist_folder(paths: List[str]) -> List[str]:
     [print(f'{path} do not exist') for path in paths if (not os.path.exists(path) or (not os.path.isdir(path)))]
-    paths =  [path.removesuffix("/") for path in paths]
-    paths =  [path.removesuffix("\\") for path in paths]
+    paths = [path.removesuffix("/") for path in paths]
+    paths = [path.removesuffix("\\") for path in paths]
     return [path for path in paths if os.path.exists(path)]
 
 
@@ -103,7 +103,7 @@ def main() -> None:
     args = vars(parser.parse_args())
     folders: List[str] = args["path"]
     folders: List[str] = filter_unexist_folder(folders)
-    fodlers: List[str] = check_folder_format(folders)
+    folders: List[str] = check_folder_format(folders)
     for folder in folders:
         convert_folder_to_a_json(folder)
     print("hello-world")

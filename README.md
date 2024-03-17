@@ -9,9 +9,17 @@
 DO NOT TO BE DONE: Auto Download and unzip shell script.
 + you should download and put the pictures to its own subfolder.
 
-TODO: Use Json to store data labels, produce them by script after download repo.
+DONE: Use Json to store data labels, produce them by script after download repo.
 + [x] convert the labels to a `filename.yolo.json` file
-+ [ ] convert the `filename.yolo.json` file to a yolo format folder
++ [x] convert the `filename.yolo.json` file to a yolo format folder
+
+ps: the json file after tgz is smaller than the original folder.
+
+## toolchain
+
++ scoop install python3
++ scoop install poetry
++ poetry install
 
 [![MIT](https://img.shields.io/badge/License-MIT-orange)][MIT]
 
