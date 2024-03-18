@@ -1,0 +1,77 @@
+###
+## @Github: https://github.com/Certseeds/barcode_detection_dataset
+## @LastEditors: nanoseeds
+###
+
+*/**/*.zip
+
+## Pictures begin
+# Portable Network Graphics
+*/**/*.[Pp][Nn][Gg]
+
+# JPEG
+*/**/*.[Jj][Pp][Gg]
+*/**/*.[Jj][Pp][Ee][Gg]
+*/**/*.jpeg
+*/**/*.jpe
+*/**/*.jif
+*/**/*.jfif
+*/**/*.jfi
+
+# JPEG 2000
+*/**/*.jp2
+*/**/*.j2k
+*/**/*.jpf
+*/**/*.jpx
+*/**/*.jpm
+*/**/*.mj2
+
+# JPEG XR
+*/**/*.jxr
+*/**/*.hdp
+*/**/*.wdp
+
+# Graphics Interchange Format
+*/**/*.gif
+
+# RAW
+*/**/*.raw
+
+# Web P
+*/**/*.webp
+
+# Animated Portable Network Graphics
+*/**/*.apng
+
+# Multiple-image Network Graphics
+*/**/*.mng
+
+# Tagged Image File Format
+*/**/*.tiff
+*/**/*.tif
+
+# Scalable Vector Graphics
+*/**/*.svg
+*/**/*.svgz
+
+# Portable Document Format
+*/**/*.pdf
+
+# X BitMap
+*/**/*.xbm
+
+# BMP
+*/**/*.bmp
+*/**/*.dib
+
+# ICO
+*/**/*.ico
+
+# 3D Images
+*/**/*.3dm
+*/**/*.max
+## Pictures end
+
+.git
+.idea
+.vscode

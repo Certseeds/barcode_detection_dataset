@@ -17,9 +17,17 @@ ps: the json file after tgz is smaller than the original folder.
 
 ## toolchain
 
+### windows
+
 + scoop install python3
 + scoop install poetry
 + poetry install
+
+### unix-like
+
+please referer the container.build.sh
+
+ps: the pipx still can use `-i` to downloading via other source.
 
 [![MIT](https://img.shields.io/badge/License-MIT-orange)][MIT]
 
