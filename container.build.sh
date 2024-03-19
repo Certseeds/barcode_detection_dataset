@@ -3,9 +3,9 @@ set -euox pipefail
 main(){
   podman \
     build \
-    -f "$(pwd)"/Containerfile \
-    --ignorefile "$(pwd)"/.containerignore \
+    -f "$(pwd)"/containerfile \
+    --ignorefile "$(pwd)"/containerignore \
     --log-level warn \
-    ,
+    .
 }
 main
